@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing-page{
+    height: 100vh;
+    background: url(images/netflix-1.jpg);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.netflix-logo{
+    width: 100px;
+    }
+.sign-in{
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: .3em;
+    background-color: red;
+    color: white;
+    border: none;
+}
+h1{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 15vh;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.intro-text{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2em;
+}
+.email-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+.email{
+    flex: 2;
+    font-size: 1em;
+    padding: 1em .5em;
+    border: none;
+}
+.get-started{
+    font-size: 1em;
+    padding: 1.01em 1em;
+    background-color: rgb(170, 9, 9);
+    color: white;
+    border: none;
+    margin-left: -2;
+    flex: 1;
+}
+hr{
+    height: 10px;
+    background-color: rgb(51, 50, 50);
+    border: none;
+}
+.sect-1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 3em;
+        
+}
+.intro-text1{
+    color: white;
+    margin: .5em;
+    font-size: 1.5em;
+}
+
+
+
+.tv1{
+    max-width: 400px;
+    height: 300px;
+    width: 50%;
+    background-color: red
+}
+.tv{
+    width:100% ;
+    height: 100%;
+}
+.tv-watch{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+
+}
+h4{
+    color: white;
+    font-size: 3rem;
+}
+.sect-2{
+    height: 30vh;
+    background-color: black;
+    padding-left: 5em;
+    padding-top: 2em;
+}
+.intro-text2{
+    color: white;
+    font-size: 1.5rem;
+    margin: .5em;
+}
+.sect-3{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 2em 0;
+}
+.questions{
+    display:flex;
+    flex-direction: column;
+    gap: .2em;
+    margin: auto;
+    margin-top: 1em;
+    max-width: 900px;
+    width: 80%;
+}
+.info{
+    width: 95.7%;
+    padding: 2em 1em;
+    background-color: grey;
+
+}
+.info::placeholder{
+    font-size: 1.3rem;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.sect-4{
+    background-color: black;
+    padding: 3em 4em ;
+
+}
+h5{
+color: grey;
+font-size: 1.5rem;
+}
+.basic-info{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.help{
+    color: grey;
+    margin: 1em;
+}
+.space1{
+    flex: 1;
+}
+@media(max-width:480px) {
+    .sect-1{
+        flex-direction:row;
+    }    
+}
+
